@@ -3,7 +3,7 @@
     flex-direction: column; /* Stacks the containers vertically */
     justify-content: flex-start; /* Aligns items to the start of the container */
     align-items: center;
-    background-image: url('../assets/PNG/ROADMAP/Background/page.png'); /* Replace with the actual path to your image */
+    background-image: url('assets/PNG/ROADMAP/Background/page.png'); /* Replace with the actual path to your image */
     background-size: cover; /* Ensures the image covers the entire section */
     background-position: -20px center; /* Adjusts the position to shift the image to the left by 20px */
     background-repeat: no-repeat; /* Prevents the image from repeating */

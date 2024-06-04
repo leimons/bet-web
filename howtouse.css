@@ -1,0 +1,62 @@
+.howtouse-main{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(assets/PNG/H2U/Background/page.png);
+    position: relative;
+    height: 7597px; /* Adjust height as needed */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    text-align: center; /* Center text within the section */
+}
+
+.howto-title{
+    width: auto;
+    margin:5%;
+    margin-top: 5%
+}
+
+.howto-title h1{
+    font-family: 'Berkshire Swash';
+    font-size: 40px;
+}
+
+.howto-title img{
+    margin-top: 7px;
+    height: 8px;
+    width: 350px;
+}
+
+.howto-title p{
+    margin-top: 2%;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.howto-content{
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+    text-align: left;
+}
+
+.howto-content h4{
+    font-weight: 800;
+}
+
+.howto-content p{
+    
+    margin-top: 2.5%;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.howto-highlight{
+    width: 145px;
+    height: 4px;
+    transform: translateX(115px);
+}
+
+.howto-content strong{
+    font-weight: 500;
+}
