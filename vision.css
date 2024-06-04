@@ -1,3 +1,5 @@
+
+/* MEDIA QUERIES APPLIED*/
 .vision-main{
     font-family: 'Poppins', sans-serif;
     background-image: url(../assets/PNG/VISION/Background/page.png);
@@ -53,4 +55,81 @@
 
 .importants{
     font-weight: 600;
+}
+
+
+@media (max-width: 768px) {
+    .vision-main {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .vision-title {
+        margin: 20px 0;
+    }
+
+    .vision-title img {
+        width: 100%;
+        height: auto;
+    }
+
+    .vision-content {
+        margin-top: 5%;
+        margin-left: 0;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .vision-content img {
+        width: 100px;
+        height: auto;
+    }
+
+    .vision-content p {
+        font-size: 16px;
+    }
+
+    .vision-content h4 {
+        font-size: 18px;
+    }
+
+    #footer-community-sect .container-fluid,
+    #footer-newsletter-sect .container-fluid {
+        padding: 0 20px;
+    }
+
+    #footer-community-sect .row,
+    #footer-newsletter-sect .row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .community-col {
+        margin-right: 0;
+    }
+
+    .footer-icons-col img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .joinus-footers-col, .chart-col {
+        margin-top: 20px;
+        transform: translateX(0);
+    }
+
+    .joinus-footers-col, .chart-col {
+        transform: translateY(0);
+    }
+
+    .footer-heading-col {
+        margin-bottom: 20px;
+    }
+
+    .footer-elements-col {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }

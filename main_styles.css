@@ -1,3 +1,5 @@
+
+/* MEDIA QUERIES APPLIED*/
 /* Navbar */
 html, body {
     height: 100%;
@@ -24,6 +26,23 @@ html, body {
     font-family: 'Poppins', sans-serif;
     font-size: large;
     padding: 0 25px;
+}
+
+/* Ensure the navbar-toggler is visible and styled */
+.custom-navbar .navbar-toggler {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    position: relative;
+    z-index: 1100; /* Ensure it stays above other content */
+}
+.custom-navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.custom-navbar .collapse {
+    background-color: rgba(0, 0, 0, 0.8); /* Background color for the collapsed menu */
+    z-index: 1000;
 }
 
 /* Adjust the body or first section to account for the fixed navbar's height */
@@ -361,6 +380,7 @@ select:focus {
     
     .navbar-nav {
         flex-direction: column;
+        width: 100%;
     }
     
     .navbar-brand {
