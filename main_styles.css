@@ -17,7 +17,7 @@ html, body {
     left: 0; /* Position it at the left edge of the viewport */
     width: 100%; /* Ensure the navbar spans the full width of the viewport */
     z-index: 1000; /* Ensure it stays above other content */
-    background-image: url('../assets/PNG/HOMEPAGE/Background/NAV BAR.png'); /* Replace with your image path */
+    background-image: url('/assets/PNG/HOMEPAGE/Background/NAV BAR.png'); /* Replace with your image path */
     background-size: cover; /* Ensure the image covers the entire navbar */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
@@ -211,7 +211,7 @@ body {
 
 #footer-newsletter-sect {
     font-family: 'Poppins', sans-serif;
-    background-image: url('../assets/PNG/HOMEPAGE/Background/footer_news.png');
+    background-image: url('/assets/PNG/HOMEPAGE/Background/footer_news.png');
     height: 450px; /* Set the height of the section */
     background-size: cover; /* Ensure the background image covers the entire area */
     background-position: center; /* Center the background image */
@@ -343,7 +343,7 @@ select:focus {
 
 
 #rights-sect {
-    background-image: url('../assets/PNG/HOMEPAGE/Background/rights.png');
+    background-image: url('/assets/PNG/HOMEPAGE/Background/rights.png');
     height: 49px; /* Full viewport height */
     background-size: cover; /* Ensure the background image covers the entire area */
 }
