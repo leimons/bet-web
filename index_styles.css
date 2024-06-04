@@ -1,0 +1,153 @@
+#intro {
+    background-image: url('assets/PNG/HOMEPAGE/Background/HOME.png');
+    height: 100vh; /* Full viewport height */
+    width: 100%;
+    background-size: cover; /* Ensure the background image covers the entire area */
+}
+
+.intro-container {
+    width: 100%; /* Full width of the viewport */
+    max-width: 90%; /* Optional: Limit max width for better readability */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Optional: Add some padding for content spacing */
+    justify-content: flex-end;
+  }
+
+  .site-title{
+    font-family: "Berkshire Swash", cursive;
+    font-size: 600;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+  }
+  .site-title-special{
+    background: linear-gradient(130deg, #FFFFFF, #FFFFFF, #7E5E2C, #E8BC4D,#E8BC4D, #E8BC4D); /* Ling gold */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent; /* Ensures compatibility */
+}
+  #gif-col{
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Hide overflow */
+  }
+  
+/* Image or GIF styling */
+.background-image {
+    position: absolute;
+    top: 75;
+    left: 750;
+    width: auto;
+    height: 85%;
+    object-fit: cover; /* Cover the entire container */
+    z-index: 1; /* Lower z-index to place it behind other elements */
+    transform: rotate(11deg); /* Rotate the background image */
+  }
+
+  /* Button container styling */
+  .button-container {
+    position: absolute;
+    top: 100;
+    left: 1475;
+    z-index: 2; /* Higher z-index to place it above the image */
+    display: flex;
+    flex-direction: column;
+    justify-content: right; /* Center the buttons horizontally */
+    align-items: center; /* Center the buttons vertically */
+    height: 100%; /* Full height of the container */
+  }
+
+  /* Individual button styling */
+  .button-container button {
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  #bot {
+    background: transparent;
+    background-image: url(assets/PNG/HOMEPAGE/Icons/bot.png);
+    background-size: cover; /* Ensure the background image covers the entire button */
+    width: 45px;
+    height: 45px; /* Set the initial height of the button */
+    border: none; /* Remove border to make it look like an icon */
+}
+
+#pitchdeck {
+    background: transparent;
+    background-image: url(assets/PNG/HOMEPAGE/Icons/whitepaper.png);
+    background-size: cover; /* Ensure the background image covers the entire button */
+    width: 53px; /* Set width to auto to maintain aspect ratio */
+    height: 322px; /* Set the button's height to match the photo's height */
+    border: none; /* Remove border to make it look like an icon */
+}
+#telegram {
+    background: transparent;
+    background-image: url(assets/PNG/HOMEPAGE/Icons/telegram.png);
+    background-size: cover; /* Ensure the background image covers the entire button */
+    width: 53px;
+    height: 53px; /* Set the initial height of the button */
+    border: none; /* Remove border to make it look like an icon */
+}
+#coingecko {
+    background: transparent;
+    background-image: url(assets/PNG/HOMEPAGE/Icons/coingecko.png);
+    background-size: cover; /* Ensure the background image covers the entire button */
+    width: 53px;
+    height: 53px; /* Set the initial height of the button */
+    border: none; /* Remove border to make it look like an icon */
+}
+
+#partners {
+    text-align: center;
+    height: 30vh; /* Full viewport height */
+    background-size: cover; /* Ensure the background image covers the entire area */
+}
+
+.partners-container {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Make the div take the full height of the section */
+}
+
+.partners {
+    flex: 1; /* Each icon takes equal space */
+    max-width: 100px; /* Adjust the maximum width of each icon */
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#section3 {
+    background-image: url('assets/PNG/HOMEPAGE/Background/ABOUT.png');
+    height: 100vh; /* Full viewport height */
+    background-size: cover; /* Ensure the background image covers the entire area */
+}
+
+#section4 {
+    background-image: url('assets/PNG/HOMEPAGE/Background/HOW IT WORKS.png');
+    height: 100vh; /* Full viewport height */
+    padding: 20px;
+    background-size: cover; /* Ensure the background image covers the entire area */
+}
+
+#section5 {
+    background-image: url('assets/PNG/HOMEPAGE/Background/FAQ.png');
+    height: 100vh; /* Full viewport height */
+    background-size: cover; /* Ensure the background image covers the entire area */
+}
+
+#section6 {
+    background-image: url('assets/PNG/HOMEPAGE/Background/TEAM.png');
+    height: 100vh; /* Full viewport height */
+    background-size: cover; /* Ensure the background image covers the entire area */
+}
+
+#section7 {
+    background-image: url('assets/PNG/HOMEPAGE/Background/BLOG.png');
+    height: 100vh; /* Full viewport height */
+    background-size: cover; /* Ensure the background image covers the entire area */
+}
+

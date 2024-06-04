@@ -1,0 +1,75 @@
+#roadmap-main {
+    display: flex;
+    flex-direction: column; /* Stacks the containers vertically */
+    justify-content: flex-start; /* Aligns items to the start of the container */
+    align-items: center;
+    background-image: url('../assets/PNG/ROADMAP/Background/page.png'); /* Replace with the actual path to your image */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: -20px center; /* Adjusts the position to shift the image to the left by 20px */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 3506px; /* Sets the height of the section to the specified value */
+    width: auto; /* Ensures the section takes up the full width of its container */
+}
+
+#roadmap-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#roadmap-highlight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#roadmap-highlight-img {
+    margin-top: -5%;
+    height: 5px;
+    width: 330.53px; 
+    margin-bottom: 50%;
+}
+
+.roadmap-items {
+    font-family: "Berkshire Swash", cursive;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+
+
+#roadmap-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    margin-top: 5px;
+    width: 1750px;
+}
+
+#roadmap-img .roadmap-items {
+    width: 100%; /* Base size for responsiveness */
+    max-width: auto; /* Ensure it doesn't get too large */
+    height: 2800px; /* Maintains aspect ratio */
+}
+
+/* Media query for larger screens (desktops) */
+@media (min-width: 768px) {
+    #roadmap-img .roadmap-items {
+        width: 80%; /* Adjust as needed for larger screens */
+        max-width: 1200px; /* Ensures the image doesn't get too large */
+    }
+}
+
+/* Media query for smaller screens (mobiles) */
+@media (max-width: 767px) {
+    #roadmap-img .roadmap-items {
+        width: 95%; /* Adjust as needed for smaller screens */
+        max-width: 95%; /* Ensures the image doesn't get too large */
+    }
+}

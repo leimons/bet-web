@@ -1,0 +1,44 @@
+Typography
+
+Magic Retro / Berkshire
+Header - 64 - Width 0%
+Sub - 32 - Width 0%
+
+Poppins
+Body - 20 - Width 0%
+Figure - Italic - 20 - Width 0%
+
+
+Colors 
+
+Black-ish?
+#0A0500
+
+Light Brown
+#443B30
+
+Dark Brown
+#14100B
+
+White
+#FFFFFF
+
+Fill Gradient / Rose Gold
+#B99850
+#CFAC5B
+#9D7A40
+#715225
+#CDAA56
+#DABA5C
+#CCA757
+
+Fill Gradient / Rose Gold List Form
+(#B99850, #CFAC5B, #9D7A40, #715225, #CDAA56, #DABA5C, #CCA757)
+
+Outline Gradient / Ling Gold
+#FFFFFF
+#7E5E2C
+#E8BC4D
+
+Outline Gradient / Ling Gold List Form
+(#FFFFFF, #7E5E2C, #E8BC4D)
