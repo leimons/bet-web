@@ -1,7 +1,7 @@
 /* MEDIA QUERIES APPLIED*/
  .vision-main{
     font-family: 'Poppins', sans-serif;
-    background-image: url(../assets/PNG/VISION/Background/page.png);
+    background-image: url(assets/PNG/VISION/Background/page.png);
     position: relative;
     height: 2041px; /* Adjust height as needed */
     width: 100%;
