@@ -1,3 +1,14 @@
+/* Apply zoom out effect on mobile */
+.desktop {
+    /* Apply zoom out effect on mobile */
+    @media only screen and (max-width: 767px) {
+        zoom: 0.5; /* Adjust the zoom level as needed */
+        transform-origin: left top;
+    }
+
+    /* Your other desktop styles here */
+
+
 .desktop .incentive-main{
     background-image: url('assets/PNG/INCENTIVE/Background/Page.png'); /* Replace with the actual path to your image */
     background-size: cover; /* Ensures the image covers the entire section */
@@ -112,4 +123,5 @@
     background-clip: text; /* Clip the background to the text for non-WebKit browsers */
     -webkit-text-fill-color: transparent; /* Make the text transparent to show the gradient for WebKit browsers */
     color: transparent; /* Fallback color, will ensure text is transparent in all browsers */
+}
 }

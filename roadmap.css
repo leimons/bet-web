@@ -1,3 +1,13 @@
+.desktop {
+    /* Apply zoom out effect on mobile */
+    @media only screen and (max-width: 767px) {
+        zoom: 0.5; /* Adjust the zoom level as needed */
+        transform-origin: left top;
+    }
+
+    /* Your other desktop styles here */
+
+
 .desktop #roadmap-main {
     display: flex;
     flex-direction: column; /* Stacks the containers vertically */
@@ -58,3 +68,4 @@
     height: 2800px; /* Maintains aspect ratio */
 }
 
+}

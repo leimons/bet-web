@@ -8,10 +8,3 @@
 
     /* Your other desktop styles here */
 }
-
-@media only screen and (max-width: 767px) {
-    .desktop {
-        zoom: 0.5; /* Adjust the zoom level as needed */
-        transform-origin: left top;
-    }
-}

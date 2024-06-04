@@ -1,3 +1,14 @@
+/* Apply zoom out effect on mobile */
+.desktop {
+  /* Apply zoom out effect on mobile */
+  @media only screen and (max-width: 767px) {
+      zoom: 0.5; /* Adjust the zoom level as needed */
+      transform-origin: left top;
+  }
+
+  /* Your other desktop styles here */
+
+
 .desktop #intro {
     background-image: url('assets/PNG/HOMEPAGE/Background/HOME.png');
     height: 100vh; /* Full viewport height */
@@ -156,3 +167,5 @@
     background-size: cover; /* Ensure the background image covers the entire area */
 }
 
+
+}
