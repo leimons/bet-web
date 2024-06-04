@@ -1,4 +1,4 @@
-#roadmap-main {
+.desktop #roadmap-main {
     display: flex;
     flex-direction: column; /* Stacks the containers vertically */
     justify-content: flex-start; /* Aligns items to the start of the container */
@@ -11,7 +11,7 @@
     width: auto; /* Ensures the section takes up the full width of its container */
 }
 
-#roadmap-title {
+.desktop #roadmap-title {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,21 +19,21 @@
     margin-top: 5%;
 }
 
-#roadmap-highlight {
+.desktop #roadmap-highlight {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
 
-#roadmap-highlight-img {
+.desktop #roadmap-highlight-img {
     margin-top: -5%;
     height: 5px;
     width: 330.53px; 
     margin-bottom: 50%;
 }
 
-.roadmap-items {
+.desktop .roadmap-items {
     font-family: "Berkshire Swash", cursive;
     font-size: 50px;
     font-weight: 400;
@@ -43,7 +43,7 @@
 }
 
 
-#roadmap-img {
+.desktop #roadmap-img {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,7 +52,7 @@
     width: 1750px;
 }
 
-#roadmap-img .roadmap-items {
+.desktop #roadmap-img .roadmap-items {
     width: 100%; /* Base size for responsiveness */
     max-width: auto; /* Ensure it doesn't get too large */
     height: 2800px; /* Maintains aspect ratio */

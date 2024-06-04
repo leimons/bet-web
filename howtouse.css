@@ -1,4 +1,4 @@
-.howtouse-main{
+.desktop .howtouse-main{
     font-family: 'Poppins', sans-serif;
     background-image: url(assets/PNG/H2U/Background/page.png);
     position: relative;
@@ -10,53 +10,53 @@
     text-align: center; /* Center text within the section */
 }
 
-.howto-title{
+.desktop .howto-title{
     width: auto;
     margin:5%;
     margin-top: 5%
 }
 
-.howto-title h1{
+.desktop .howto-title h1{
     font-family: 'Berkshire Swash';
     font-size: 40px;
 }
 
-.howto-title img{
+.desktop .howto-title img{
     margin-top: 7px;
     height: 8px;
     width: 350px;
 }
 
-.howto-title p{
+.desktop .howto-title p{
     margin-top: 2%;
     font-weight: 300;
     font-size: 20px;
 }
 
-.howto-content{
+.desktop .howto-content{
     margin-right: 5%;
     margin-top: 5%;
     margin-left: 5%;
     text-align: left;
 }
 
-.howto-content h4{
+.desktop .howto-content h4{
     font-weight: 800;
 }
 
-.howto-content p{
+.desktop .howto-content p{
     
     margin-top: 2.5%;
     font-size: 20px;
     font-weight: 300;
 }
 
-.howto-highlight{
+.desktop .howto-highlight{
     width: 145px;
     height: 4px;
     transform: translateX(115px);
 }
 
-.howto-content strong{
+.desktop .howto-content strong{
     font-weight: 500;
 }
