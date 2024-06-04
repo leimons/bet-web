@@ -1,0 +1,115 @@
+.incentive-main{
+    background-image: url('assets/PNG/INCENTIVE/Background/Page.png'); /* Replace with the actual path to your image */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 1408px; /* Sets the height of the section to the specified value */
+    width: 100%; /* Ensures the section takes up the full width of its container */
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    text-align: center; /* Center text within the section */
+}
+
+.incentive-title{
+    width: auto;
+    padding-top: 50px;
+}
+
+.incentive-title h1{
+    font-family: 'Berkshire Swash';
+}
+
+.incentive-title img{
+    height: 7.5px;
+    width: 315px;
+    transform: translateX(5px);
+}
+
+.incentive-content{
+    justify-content: center;
+    text-align: center;
+    padding: 2.5%;
+}
+
+.incentive-content p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.col-3{
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 611px;
+}
+.contacts-cards{
+    justify-content: center;
+    align-items: center; /* Align items to the top */
+    text-align: center; /* Center text within the section */
+}
+
+/* Make the edges of the card transparent and center the contents */
+.first-card {
+    background-color: transparent;
+    background-image: url(assets/PNG/INCENTIVE/Images/team\ sec.png); /* Semi-transparent background */
+    background-repeat: no-repeat;
+    border: none; /* Remove default border */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Optional: add a shadow for better visibility */
+    width: 95%; /* Take up full width of the parent container */
+    height: 100%; /* Take up full height of the parent container */
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+}
+
+/* Center the contents within the card */
+.card-body {
+    margin-right: 2.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center contents horizontally */
+    text-align: center; /* Center text */
+}
+
+.icon-profiles{
+    width: 225px;
+    height: 225px;
+
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.icon-socials{
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 10%;
+    width: 70px;
+    height: 50px;
+}
+
+.card-title{
+    font-family: 'Berkshire Swash', cursive;
+    letter-spacing: 1px;
+    margin-top: -5%;
+    margin-bottom: 2%;
+}
+
+.card-subtitle{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, #B99850, #CFAC5B, #9D7A40, #715225, #CDAA56, #DABA5C, #CCA757); /* Define the gradient */
+    -webkit-background-clip: text; /* Clip the background to the text for WebKit browsers */
+    background-clip: text; /* Clip the background to the text for non-WebKit browsers */
+    -webkit-text-fill-color: transparent; /* Make the text transparent to show the gradient for WebKit browsers */
+    color: transparent; /* Fallback color, will ensure text is transparent in all browsers */
+}
