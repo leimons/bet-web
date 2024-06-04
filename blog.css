@@ -1,10 +1,75 @@
-/* Apply zoom out effect on mobile */
-.desktop {
-    /* Apply zoom out effect on mobile */
-    @media only screen and (max-width: 767px) {
-        zoom: 0.5; /* Adjust the zoom level as needed */
-        transform-origin: left top;
-    }
+#blog-title{
+    margin: 5%;
+    text-align:center;
+}
 
-    /* Your other desktop styles here */
+.blog-title h1{
+    font-size: 48px;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+ .blog-title img{
+    height: 7.5px;
+    width: 225px;
+    transform: translateX(5px);
+}
+
+.card{
+    align-self: center;
+    align-items: center;
+    background: linear-gradient(145deg, #b89453, #a48b45, #d6b55a, #a48b45, #b89453);
+    border-color: silver;
+    border-width: 2.5px;
+}
+
+.card-body{
+    padding-top: 5%;
+    text-align: left;
+    margin-left: -10%;
+    margin-right: 15%;
+}
+
+a {
+    color: black;
+}
+
+.hyper-links{
+    margin-top: -15px;
+    margin-right: 20px;
+    text-align: right;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.card-title{
+    font-weight: 700;
+}
+#blog-content{
+    display: block;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    text-align: center; 
+    color: black;
+    padding-bottom: 10%;
+}
+
+.blog-conts{
+    margin-left: 10%;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+}
+
+.blog-main{
+    background-image: url('assets/PNG/INCENTIVE/Background/Page.png'); /* Replace with the actual path to your image */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: auto; /* Sets the height of the section to the specified value */
+    width: 100%; /* Ensures the section takes up the full width of its container */
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    text-align: center; /* Center text within the section */
 }
