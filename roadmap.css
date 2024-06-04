@@ -58,18 +58,3 @@
     height: 2800px; /* Maintains aspect ratio */
 }
 
-/* Media query for larger screens (desktops) */
-@media (min-width: 768px) {
-    #roadmap-img .roadmap-items {
-        width: 80%; /* Adjust as needed for larger screens */
-        max-width: 1200px; /* Ensures the image doesn't get too large */
-    }
-}
-
-/* Media query for smaller screens (mobiles) */
-@media (max-width: 767px) {
-    #roadmap-img .roadmap-items {
-        width: 95%; /* Adjust as needed for smaller screens */
-        max-width: 95%; /* Ensures the image doesn't get too large */
-    }
-}

@@ -1,0 +1,7 @@
+/* Apply zoom out effect on mobile */
+@media only screen and (max-width: 767px) {
+    .desktop {
+        zoom: 0.5; /* Adjust the zoom level as needed */
+        transform-origin: left top;
+    }
+}

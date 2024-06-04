@@ -101,6 +101,8 @@
 }
 
 #partners {
+  
+    background-image: url('assets/PNG/HOMEPAGE/Background/PARTNER.png');
     text-align: center;
     height: 30vh; /* Full viewport height */
     background-size: cover; /* Ensure the background image covers the entire area */
