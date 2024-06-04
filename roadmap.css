@@ -1,4 +1,4 @@
-.desktop {
+.desktop{
     /* Apply zoom out effect on mobile */
     @media only screen and (max-width: 767px) {
         zoom: 0.5; /* Adjust the zoom level as needed */
@@ -8,7 +8,7 @@
     /* Your other desktop styles here */
 
 
-.desktop #roadmap-main {
+ #roadmap-main {
     display: flex;
     flex-direction: column; /* Stacks the containers vertically */
     justify-content: flex-start; /* Aligns items to the start of the container */
@@ -21,7 +21,7 @@
     width: auto; /* Ensures the section takes up the full width of its container */
 }
 
-.desktop #roadmap-title {
+ #roadmap-title {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,21 +29,21 @@
     margin-top: 5%;
 }
 
-.desktop #roadmap-highlight {
+ #roadmap-highlight {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
 
-.desktop #roadmap-highlight-img {
+ #roadmap-highlight-img {
     margin-top: -5%;
     height: 5px;
     width: 330.53px; 
     margin-bottom: 50%;
 }
 
-.desktop .roadmap-items {
+ .roadmap-items {
     font-family: "Berkshire Swash", cursive;
     font-size: 50px;
     font-weight: 400;
@@ -53,7 +53,7 @@
 }
 
 
-.desktop #roadmap-img {
+ #roadmap-img {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,7 +62,7 @@
     width: 1750px;
 }
 
-.desktop #roadmap-img .roadmap-items {
+ #roadmap-img .roadmap-items {
     width: 100%; /* Base size for responsiveness */
     max-width: auto; /* Ensure it doesn't get too large */
     height: 2800px; /* Maintains aspect ratio */

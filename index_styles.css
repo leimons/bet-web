@@ -9,14 +9,14 @@
   /* Your other desktop styles here */
 
 
-.desktop #intro {
+ #intro {
     background-image: url('assets/PNG/HOMEPAGE/Background/HOME.png');
     height: 100vh; /* Full viewport height */
     width: 100%;
     background-size: cover; /* Ensure the background image covers the entire area */
 }
 
-.desktop .intro-container {
+ .intro-container {
     width: 100%; /* Full width of the viewport */
     max-width: 90%; /* Optional: Limit max width for better readability */
     margin: 0 auto; /* Center the container */
@@ -24,7 +24,7 @@
     justify-content: flex-end;
   }
 
-.desktop .site-title{
+ .site-title{
     font-family: "Berkshire Swash", cursive;
     font-size: 600;
     font-weight: 400;
@@ -32,14 +32,14 @@
     letter-spacing: 2px;
   }
 
-  .desktop .site-title-special{
+   .site-title-special{
     background: linear-gradient(130deg, #FFFFFF, #FFFFFF, #7E5E2C, #E8BC4D,#E8BC4D, #E8BC4D); /* Ling gold */
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent; /* Ensures compatibility */
 }
-.desktop  #gif-col{
+  #gif-col{
     position: relative;
     width: 100%;
     height: 100vh; /* Full viewport height */
@@ -47,7 +47,7 @@
   }
   
 /* Image or GIF styling */
-.desktop .background-image {
+ .background-image {
     position: absolute;
     top: 75;
     left: 750;
@@ -59,7 +59,7 @@
   }
 
   /* Button container styling */
-  .desktop .button-container {
+   .button-container {
     position: absolute;
     top: 100;
     left: 1475;
@@ -72,13 +72,13 @@
   }
 
   /* Individual button styling */
-  .desktop  .button-container button {
+    .button-container button {
     margin: 10px;
     padding: 10px 20px;
     cursor: pointer;
   }
 
-  .desktop  #bot {
+    #bot {
     background: transparent;
     background-image: url(assets/PNG/HOMEPAGE/Icons/bot.png);
     background-size: cover; /* Ensure the background image covers the entire button */
@@ -87,7 +87,7 @@
     border: none; /* Remove border to make it look like an icon */
 }
 
-.desktop #pitchdeck {
+ #pitchdeck {
     background: transparent;
     background-image: url(assets/PNG/HOMEPAGE/Icons/whitepaper.png);
     background-size: cover; /* Ensure the background image covers the entire button */
@@ -96,7 +96,7 @@
     border: none; /* Remove border to make it look like an icon */
 }
 
-.desktop #telegram {
+ #telegram {
     background: transparent;
     background-image: url(assets/PNG/HOMEPAGE/Icons/telegram.png);
     background-size: cover; /* Ensure the background image covers the entire button */
@@ -105,7 +105,7 @@
     border: none; /* Remove border to make it look like an icon */
 }
 
-.desktop #coingecko {
+ #coingecko {
     background: transparent;
     background-image: url(assets/PNG/HOMEPAGE/Icons/coingecko.png);
     background-size: cover; /* Ensure the background image covers the entire button */
@@ -114,7 +114,7 @@
     border: none; /* Remove border to make it look like an icon */
 }
 
-.desktop #partners {
+ #partners {
   
     background-image: url('assets/PNG/HOMEPAGE/Background/PARTNER.png');
     text-align: center;
@@ -122,46 +122,46 @@
     background-size: cover; /* Ensure the background image covers the entire area */
 }
 
-.desktop .partners-container {    
+ .partners-container {    
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%; /* Make the div take the full height of the section */
 }
 
-.desktop .partners {
+ .partners {
     flex: 1; /* Each icon takes equal space */
     max-width: 100px; /* Adjust the maximum width of each icon */
     margin-left: 5%;
     margin-right: 5%;
 }
 
-.desktop #section3 {
+ #section3 {
     background-image: url('assets/PNG/HOMEPAGE/Background/ABOUT.png');
     height: 100vh; /* Full viewport height */
     background-size: cover; /* Ensure the background image covers the entire area */
 }
 
-.desktop #section4 {
+ #section4 {
     background-image: url('assets/PNG/HOMEPAGE/Background/HOW IT WORKS.png');
     height: 100vh; /* Full viewport height */
     padding: 20px;
     background-size: cover; /* Ensure the background image covers the entire area */
 }
 
-.desktop #section5 {
+ #section5 {
     background-image: url('assets/PNG/HOMEPAGE/Background/FAQ.png');
     height: 100vh; /* Full viewport height */
     background-size: cover; /* Ensure the background image covers the entire area */
 }
 
-.desktop #section6 {
+ #section6 {
     background-image: url('assets/PNG/HOMEPAGE/Background/TEAM.png');
     height: 100vh; /* Full viewport height */
     background-size: cover; /* Ensure the background image covers the entire area */
 }
 
-.desktop #section7 {
+ #section7 {
     background-image: url('assets/PNG/HOMEPAGE/Background/BLOG.png');
     height: 100vh; /* Full viewport height */
     background-size: cover; /* Ensure the background image covers the entire area */

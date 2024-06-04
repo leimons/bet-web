@@ -1,5 +1,5 @@
 /* Apply zoom out effect on mobile */
-.desktop {
+.desktop{
     /* Apply zoom out effect on mobile */
     @media only screen and (max-width: 767px) {
         zoom: 0.5; /* Adjust the zoom level as needed */
@@ -10,7 +10,7 @@
 
 
 /* MEDIA QUERIES APPLIED*/
-.desktop .vision-main{
+ .vision-main{
     font-family: 'Poppins', sans-serif;
     background-image: url(../assets/PNG/VISION/Background/page.png);
     position: relative;
@@ -22,47 +22,47 @@
     text-align: center; /* Center text within the section */
 }
 
-.desktop .vision-title{
+ .vision-title{
     width: auto;
     margin:5%;
     margin-top: 9%
 }
 
-.desktop .vision-title h1{
+ .vision-title h1{
     font-family: 'Berkshire Swash';
 }
 
-.desktop .vision-title img{
+ .vision-title img{
     margin-top: 7.5px;
     height: 10px;
     width: 350px;
 }
 
-.desktop .vision-content{
+ .vision-content{
     margin-top: 10%;
     margin-left: 5%;
     text-align: left;
 }
 
-.desktop .vision-content h4{
+ .vision-content h4{
     font-weight: 800;
 }
 
-.desktop .vision-content p{
+ .vision-content p{
     
     margin-top: 2.5%;
     font-size: 20px;
     font-weight: 300;
 }
 
-.desktop .vision-content img{
+ .vision-content img{
     margin-top: -5px;
     width: 145px;
     height: 4px;
     transform: translateX(5px);
 }
 
-.desktop .importants{
+ .importants{
     font-weight: 600;
 }
 }

@@ -1,5 +1,5 @@
 /* Apply zoom out effect on mobile */
-.desktop {
+.desktop{
     /* Apply zoom out effect on mobile */
     @media only screen and (max-width: 767px) {
         zoom: 0.5; /* Adjust the zoom level as needed */
@@ -21,7 +21,7 @@ html, body {
 
 
 /* NAV BAR BACKGROUND AND TEXT */
-.desktop .custom-navbar {
+ .custom-navbar {
     position: fixed; /* Fix the navbar to the top */
     top: 0; /* Position it at the top of the viewport */
     left: 0; /* Position it at the left edge of the viewport */
@@ -43,29 +43,29 @@ body {
 }
 
 /* NAV BAR ALIGNMENT */
-.desktop .navbar-nav {
+ .navbar-nav {
     display: flex;
     align-items: center;
 }
 
 /* NAVBAR LINKS POSITIONS */
-.desktop .custom-navbar .nav-link, .shape {
+ .custom-navbar .nav-link, .shape {
     margin-right: 10px; /* Adjust the margin between navbar links */
     color: #ffffff;
 }
 
 /* NAVBAR BUTTON POSITIONS */
-.desktop .nav-item {
+ .nav-item {
     margin-right: 20px; /* Adjust spacing between nav items */
 }
 
 /* NAVBAR IMAGE POSITION */
-.desktop .navbar-brand {
+ .navbar-brand {
     padding: 5%;
 }
 
 /* SQUARE SHAPE */
-.desktop .square {
+ .square {
     width: 200px; /* Adjust width as needed */
     height: 60px; /* Adjust height as needed */
     background-color: transparent; /* Transparent background */
@@ -73,18 +73,18 @@ body {
 }
 
 /* NAV RECTANGLE BUTTON CONFIGS */
-.desktop .rect-button-image {
+ .rect-button-image {
     position: absolute; /* Position the image absolutely */
     top: 0; /* Adjust top position */
     left: 0; /* Adjust left position */
     width: 100%; /* Set width to fill the button */
     height: 100%; /* Set height to fill the button */
 }
-.desktop .rect-button-image img {
+ .rect-button-image img {
     width: 100%; /* Make the image fill its container */
     height: 100%; /* Make the image fill its container */
 }
-.desktop .rect-button-text a {
+ .rect-button-text a {
     position: absolute; /* Position the text absolutely */
     top: 50%; /* Center vertically */
     left: 50%; /* Center horizontally */
@@ -98,18 +98,18 @@ body {
 }
 
 /* NAV POLY BUTTON CONFIGS */
-.desktop .poly-button-image {
+ .poly-button-image {
     position: absolute; /* Position the image absolutely */
     top: 0; /* Adjust top position */
     left: 0; /* Adjust left position */
     width: 98%; /* Set width to fill the button */
     height: 98%; /* Set height to fill the button */
 }
-.desktop .poly-button-image img {
+ .poly-button-image img {
     width: 100%; /* Make the image fill its container */
     height: 100%; /* Make the image fill its container */
 }
-.desktop .poly-button-text {
+ .poly-button-text {
     position: absolute; /* Position the text absolutely */
     top: 50%; /* Center vertically */
     left: 50%; /* Center horizontally */
@@ -123,14 +123,14 @@ body {
 }
 
 /* LINK UNDERLINE REMOVER */
-.desktop .link-button-text a {
+ .link-button-text a {
     color: #ffffff; /* Text color */
     text-decoration: none; /* Remove underline */
     color: inherit; /* Inherit text color from parent */
 }
 
 
-.desktop #footer-community-sect {
+ #footer-community-sect {
     background-image: url('assets/PNG/HOMEPAGE/Background/JOIN.png');
     font-family: 'Poppins', sans-serif;
     height: 232px; /* Set the height of the section */
@@ -141,23 +141,23 @@ body {
 }
 
 
-.desktop .community-footers-col {
+ .community-footers-col {
     height: auto; /* Allow height to adjust based on content */
 }
 
-.desktop .community-col{
+ .community-col{
     margin-right: -10%;
     height: auto; /* Allow height to adjust based on content */
 }
 
-.desktop #community-subtitle {
+ #community-subtitle {
     font-size: 20px; /* Adjust the font size */
     font-weight: 300; /* Make the font thinner */
     font-family: 'Poppins', sans-serif; /* Apply the desired font family */
     margin-top: 25px;
 }
 
-.desktop .common-col {
+ .common-col {
     display: flex;
     flex-direction: column; /* Arrange items vertically */
     justify-content: center; /* Center items vertically */
@@ -166,7 +166,7 @@ body {
     font-family: 'Poppins', sans-serif; /* Apply the font family */
 }
 
-.desktop #footer-newsletter-sect {
+ #footer-newsletter-sect {
     font-family: 'Poppins', sans-serif;
     background-image: url('assets/PNG/HOMEPAGE/Background/footer_news.png');
     height: 450px; /* Set the height of the section */
@@ -177,7 +177,7 @@ body {
 }
 
 /* Common styles for both community and newsletter columns */
-.desktop .col-6.common-col {
+ .col-6.common-col {
     display: flex;
     flex-direction: column; /* Arrange items vertically */
     justify-content: center; /* Center items vertically */
@@ -186,27 +186,27 @@ body {
     font-family: 'Poppins', sans-serif; /* Apply the font family */
 }
 
-.desktop #community-highlight{
+ #community-highlight{
     height: 5px;
     width: 220px; 
     transform: translateX(60px);
 }
 
-.desktop #community-title {
+ #community-title {
     font-family: 'Berkshire Swash', cursive;
     font-size: 38px; /* Adjust the font size */
     font-weight: 400; /* Make the font bold */
     letter-spacing: 2px;
 }
 
-.desktop #news-title {
+ #news-title {
     font-size: 28px; /* Adjust the font size */
     font-weight: bold; /* Make the font bold */
 }
 
 
 
-.desktop .footer-icons-col {
+ .footer-icons-col {
     display: flex; /* Use flexbox */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
@@ -214,13 +214,13 @@ body {
     transform: translateX(25px);
 }
 
-.desktop .footer-icons-col img {
+ .footer-icons-col img {
     width: 78px; /* Set the width to 54px */
     height: 78px; /* Set the height to 54px */
 }
 
 
-.desktop #footer-newsletter-sect {
+ #footer-newsletter-sect {
     font-family: 'Poppins', sans-serif;
     background-image: url('/assets/PNG/HOMEPAGE/Background/footer_news.png');
     height: 450px; /* Set the height of the section */
@@ -231,7 +231,7 @@ body {
 }
 
 
-.desktop .newsletter-col {
+ .newsletter-col {
     display: flex;
     flex-direction: column; /* Arrange items vertically */
     justify-content: center; /* Center items vertically */
@@ -240,7 +240,7 @@ body {
 }
 
 
-.desktop .newsletter-input-group {
+ .newsletter-input-group {
     background-color: #fff; /* White background */
     border-radius: 50px; /* Rounded corners */
     overflow: hidden;
@@ -253,7 +253,7 @@ body {
     align-items: center; /* Center align items */
 }
 
-.desktop .input-group-text {
+ .input-group-text {
     background-color: transparent; /* Transparent background for icon */
     border: none; /* No border */
 }
@@ -265,7 +265,7 @@ select:focus {
     box-shadow: none; /* Remove any additional box shadow, if present */
 }
 
-.desktop #news-title {
+ #news-title {
     font-size: 40px; /* Adjust the font size */
     font-weight: 400; /* Make the font bold */
     font-family: 'Poppins', sans-serif; /* Apply the desired font family */
@@ -273,23 +273,23 @@ select:focus {
     margin-top: -5%;
 }
 
-.desktop #news-subtitle {
+ #news-subtitle {
     font-size: 22px; /* Adjust the font size */
     font-weight: 200; /* Make the font thinner */
     font-family: 'Poppins', sans-serif; /* Apply the desired font family */
     margin-bottom: 25px;
 }
 
-.desktop #email-icon{
+ #email-icon{
     transform: translateX(5px);
 }
 
-.desktop .input-group-text img {
+ .input-group-text img {
     height: 24px; /* Icon size */
     width: auto; /* Maintain aspect ratio */
 }
 
-.desktop .form-control {
+ .form-control {
     border: none; /* Remove border */
     box-shadow: none; /* Remove shadow */
     flex: 1; /* Allow the input to grow */
@@ -298,7 +298,7 @@ select:focus {
     margin-left: -10px;
 }
 
-.desktop .btn-gold {
+ .btn-gold {
     height: 50px; /* Match the height of the input */
     width: 150px;
     background: linear-gradient(to right, #b89453, #f2c94c); /* Gold gradient */
@@ -312,11 +312,11 @@ select:focus {
     box-sizing: border-box; /* Include border in dimensions */
 }
 
-.desktop .fill-col{
+ .fill-col{
     height: 100%;
 }
 
-.desktop .joinus-footers-col {
+ .joinus-footers-col {
     display: flex;
     flex-direction: column; /* Arrange items vertically */
     justify-content: center; /* Center items vertically */
@@ -326,38 +326,38 @@ select:focus {
     margin-top: -5%;
 }
 
-.desktop .joinus-footers-col p{
+ .joinus-footers-col p{
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
-.desktop .footer-heading-col{
+ .footer-heading-col{
     font-size: 22px;
     margin-bottom: 40%;    
 }
 
-.desktop .footer-elements-col {
+ .footer-elements-col {
     margin-top: 50px;
     margin-bottom: 50px; /* Add some spacing between items */
     font-weight: 200; /* Make the font as thin as possible */
 }
-.desktop .joinus-col{
+ .joinus-col{
     transform: translateX(25px);
 }
 
-.desktop .joinus-col, .chart-col {
+ .joinus-col, .chart-col {
     background-color: transparent; /* Remove background color */
     height: auto; /* Allow height to adjust based on content */
     transform: translateY(25px);
 }
 
-.desktop #rights-sect {
+ #rights-sect {
     background-image: url('/assets/PNG/HOMEPAGE/Background/rights.png');
     height: 49px; /* Full viewport height */
     background-size: cover; /* Ensure the background image covers the entire area */
 }
 
-.desktop .rights-text{
+ .rights-text{
     text-align: center;
     justify-content: center;
     margin-top: 25px;
