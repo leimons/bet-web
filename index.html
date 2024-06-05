@@ -15,6 +15,7 @@
         <link href="main_styles.css" rel="stylesheet">
         <link href="mobiles.css" rel="stylesheet">
     </head>
+
   <body>
     <nav class="navbar navbar-expand-lg custom-navbar">
         <a class="navbar-brand" href="#"><img src="assets/betzlogo.png" alt="" width="75" height="75" class="d-inline-block align-text-top"></a>
@@ -75,38 +76,52 @@
 
         
           <section id="intro">
-            <div class="container py-6 mt-5">
-                <div class="row flex-lg-row-reverse align-items-center g-5">
-                    <div class="col-10 mx-auto col-sm-8 col-lg-6">
-                        <img src="assets/PNG/HOMEPAGE/gif/wheel animate.gif" class="d-block mx-lg-auto img-fluid" alt="" loading="lazy" style="z-index: 0;">
+            <div class="intro-container">
+              <div class="row">
+                <div class="col-6" style="padding-right: -20px; width: 800; transform: translate(100px, 120px);">
+                  <div class="site-title">
+                    <h1>
+                      Bet
+                    </h1>
+                    <h1 class="site-title-special">
+                      Lounge
+                    </h1>
+                  </div>
+                  <div style="padding-top: 5%;">
+                    <p class="site-description" style="font-weight: 300;">The Ultimate Community Betting And Gaming Experience. <br> Gamifying The Social Landscape Of Telegram</p>
+                    <br>
+                    <div class="shape square">
+                        <div class="poly-button-image">
+                            <img src="assets/PNG/HOMEPAGE/Icons/box fill.png" alt="Button Image" style="height: 50px; width: 180px; transform: translateX(5px);">
+                        </div>
+                        <div class="poly-button-text link-button-text" style="transform: translate(-25px, -20px);">
+                            <a href="https://t.me/LeiaGameBot">Join</a>
+                        </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="lc-block mb-3">
-                            <div editable="rich">
-                                <h2 class=" display-5">Bet <br><span>Lounge</span></h2> <br>
-                            </div>
-                        </div>
-        
-                        <div class="lc-block mb-3">
-                            <div editable="rich">
-                                <p class="lead">The Ultimate Community Betting And Gaming Experience. Gamifying The Social Landscape Of Telegram.
-                                </p>
-                            </div>
-                        </div>
-        
-                        <div class="lc-block d-grid gap-2 d-md-flex justify-content-md-start">
-                            <div class="shape square">
-                                <div class="poly-button-image">
-                                    <img src="assets/PNG/HOMEPAGE/Icons/box fill.png " alt="Button Image">
-                                </div>
-                                <div class="poly-button-text link-button-text">
-                                    <a href="https://t.me/betloungepvp_bot">Join</a>
-                                </div>
-                            </div>
-                        </div>
-        
-                    </div>
+                  </div>
                 </div>
+                <div class="col-lg-8" id="gif-col" > 
+                  <img src="assets/PNG/HOMEPAGE/gif/wheel animate.gif" alt="Background Image" class="background-image" >
+    
+                  <!-- Buttons that overlap the image -->
+                  
+                  <div class="button-container">
+                    
+                    <a href="https://t.me/betloungepvp_bot" class="home-icons-bot" id="bot">
+                        <img src="assets/PNG/HOMEPAGE/Icons/bot.png" alt="Bot" >
+                    </a>
+                    <a href="https://t.me/betloungepvp_bot" class="home-icons" id="pitchdeck">
+                        <img src="assets/SVG/HOMEPAGE/Icons/whitepaper.svg" alt="Whitepaper">
+                    </a>
+                    <a href="https://t.me/betloungepvp_bot" class="home-icons-socs">  
+                        <img src="assets/PNG/HOMEPAGE/Icons/telegram.png" alt="Telegram" id="telegram" style="width: 53px; height: 53px; margin-top: 30px;"">
+                    </a>
+                    <a href="https://t.me/betloungepvp_bot" class="home-icons-socs2" id="coingecko" >
+                        <img src="assets/PNG/HOMEPAGE/Icons/coingecko.png" alt="Coingecko" style="width: 53px; height: 53px; margin-top: 20px;">
+                    </a>
+                </div>
+                </div>
+              </div>
             </div>
           </section>
     
@@ -120,15 +135,171 @@
               </div>
           </section>
     
-          <section id="section3"></section>
+          <section id="section3">
+            <div class="about-me-left-column">
+                <h1 class="about-me-items">About Us</h1>
+                <img class="roadmap-items" src="assets/PNG/ROADMAP/images/highlight.png" alt="Roadmap Highlight" style="margin-top: 15px;">
+                <p class = "about-me-desc">
+                    Bet Lounge is a unique community interaction concept that gamifies Telegram group chats through a custom betting bot. We merge gambling, gaming, and financial management in a private social setting, fostering community building and excitement during live events. Bet Lounge allows you and your group to bet on sports, create custom bet pools, escrow, host tournaments and much more at your fingertips. 
+                </p>
+            </div>
+            <div class="about-me-right-column">
+                <img src="assets/PNG/HOMEPAGE/Images/about.png" alt="Photo">
+            </div>
+          </section>
     
-          <section id="section4"></section>
+          <section id="section4">
+            <div class="how-works-container"  style="transform: translateY(30px);">
+                <div class="how-works-title">
+                    <h1>How It Works</h1>
+                    <img class="roadmap-items" src="assets/PNG/ROADMAP/images/highlight.png" alt="Roadmap Highlight">
+                </div>
+                <div class="how-works-row">
+                    <div class="how-works-c" id="hiw-c1">
+                        <h2>Bot Integration</h2>
+                        <p>It all starts with the bot being added to a Telegram group and made admin. Members can then deposit funds to play with directly on the bot, you will get a private deposit address for your account. Load up your account and you're ready to go!</p>
+                    </div>
+                    <div class="how-works-c" id="hiw-c2">
+                        <h2 style="transform: translateY(-15px);">Custom PvP Betting</h2>
+                        <p style="transform: translateY(-15px);">Group owners can then use the private dm side of the bot to create and organize the bets. The bot will then prompt the owner to create different possible outcomes of the bet. Once bet is created, it will show up in your "Created Bets" menu. When you want to start the betting process you can then click Activate Bet. You can also stop the betting process by clicking Close Bet.</p>
+                    </div>
+                    <div class="how-works-c" id="hiw-c3">
+                        <h2>Get Rewarded</h2>
+                        <p>Once the results are in and the outcome is clear, the group owner can then go into the bot and Choose Outcome. Once the outcome is chosen the bot will automatically pay out the winners. Check you balance!</p>
+                    </div>
+                </div>
+            </div>
+          </section>
     
-          <section id="section5"></section>
-    
+          <section id="section5">
+            <div class="container my-5">
+              <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="accordion" id="accordionLeft">
+                    <div class="accordion-item mb-3">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          Where Can I Find The Bot?
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionLeft">
+                        <div class="accordion-body">
+                          The bot can be found on telegram, you can search @betloungepvp_bot or click here: <a href="https://t.me/betloungepvp_bot">https://t.me/betloungepvp_bot</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item mb-3">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Does The Bot Need To Be Admin To Work?
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionLeft">
+                        <div class="accordion-body">
+                          <p>the answer is here</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item mb-3">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          The Bot Won’t Reply To My Prompts, What Should I Do?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionLeft">
+                        <div class="accordion-body">
+                          <p>the answer is here</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="accordion" id="accordionRight">
+                    <div class="accordion-item mb-3">
+                      <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          I’m In A Group With An Active Bet. I Clicked “Bet” In The Bot But Don’t See It. How Can I Fix?
+                        </button>
+                      </h2>
+                      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionRight">
+                        <div class="accordion-body">
+                          <p>the answer is here</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item mb-3">
+                      <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                          Do I Have To Pay A Transaction Fee For Every Transaction?
+                        </button>
+                      </h2>
+                      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionRight">
+                        <div class="accordion-body">
+                          <p>the answer is here</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header" id="headingFive">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Do I Have To Pay A Transaction Fee For Every Transaction?
+                          </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionRight">
+                          <div class="accordion-body">
+                            <p>the answer is here</p>
+                          </div>
+                        </div>
+                      </div>  
+                </div>
+              </div>
+            </div>
+          </section>
+
           <section id="section6"></section>
     
-          <section id="section7"></section>
+          <section id="section7">
+            <div class="container">
+                <div class="blog-title">
+                    <h1>Blog</h1>
+                    <img class="roadmap-items" src="assets/PNG/ROADMAP/images/highlight.png" alt="Roadmap Highlight" style="transform: translateY(-20px); width: 250;">
+                    <p>Read Our Articles To Learn More</p>
+                </div>
+                
+                <div class="blog-grid">
+                    <div class="blog-item">
+                        <img src="assets/BLOG/pic1.jpg" alt="Gaming Made Easy">
+                        <div class="blog-content">
+                            <h3>How To Use and Integrate The Bot Into Your Group</h3>
+                            <p>Discover the exciting features of Bet Lounge and how it can enhance your Telegram group chats with its unique gamification and betting bot.</p>
+                            <p class="date">2/06/2024</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                    <div class="blog-item">
+                        <img src="assets/BLOG/pic2.jpg" alt="Potential of Gamifying Telegram Group Chats with Betting Bots">
+                        <div class="blog-content">
+                            <h3>Potential of Gamifying Telegram Group Chats with Betting Bots</h3>
+                            <p>Discover the unique community interaction concept of Bet Lounge, where gambling, gaming, and financial management.</p>
+                            <p class="date">2/06/2024</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                    <div class="blog-item">
+                        <img src="assets/BLOG/pic1.jpg" alt="How To Use and Integrate The Bot Into Your Group">
+                        <div class="blog-content">
+                            <h3>How To Use and Integrate The Bot Into Your Group</h3>
+                            <p>Discover the exciting features of Bet Lounge and how it can enhance your Telegram group chats with its unique gamification and betting bot.</p>
+                            <p class="date">2/06/2024</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="read-more-all">Read More &rarr;</a>
+            </div>
+          </section>
     
     
     
@@ -223,5 +394,9 @@
                 © 2024 Bet Lounge. All Rights Reserved
             </p>
         </section>
+
+    
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
   </body>
 </html>

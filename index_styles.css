@@ -11,15 +11,22 @@
     max-width: 90%; /* Optional: Limit max width for better readability */
     margin: 0 auto; /* Center the container */
     padding: 0 20px; /* Optional: Add some padding for content spacing */
-    justify-content: flex-end;
+    justify-content: center;
   }
 
- .site-title{
+ h1 {
     font-family: "Berkshire Swash", cursive;
-    font-size: 600;
+    font-size: 125;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+   margin-top: -5%;
+   
+  }
+
+  .site-description{
+   font-size: 24px;
+    margin-bottom: 5%;
   }
 
    .site-title-special{
@@ -29,9 +36,10 @@
     -webkit-text-fill-color: transparent;
     color: transparent; /* Ensures compatibility */
 }
+
   #gif-col{
     position: relative;
-    width: 100%;
+    width: 50%;
     height: 100vh; /* Full viewport height */
     overflow: hidden; /* Hide overflow */
   }
@@ -39,20 +47,18 @@
 /* Image or GIF styling */
  .background-image {
     position: absolute;
-    top: 75;
-    left: 750;
     width: 835.39px;
     height: 835.39px;
     object-fit: cover; /* Cover the entire container */
     z-index: 1; /* Lower z-index to place it behind other elements */
-    transform: rotate(11deg); /* Rotate the background image */
+    transform: rotate(13deg); /* Rotate the background image */
   }
 
   /* Button container styling */
    .button-container {
     position: absolute;
     top: 100;
-    left: 1475;
+    left: 768;
     z-index: 2; /* Higher z-index to place it above the image */
     display: flex;
     flex-direction: column;
@@ -62,24 +68,22 @@
   }
 
   /* Individual button styling */
-    .button-container button {
-    margin: 10px;
-    padding: 10px 20px;
+    .button-container a {
     cursor: pointer;
   }
 
     #bot {
     background: transparent;
-    background-image: url(assets/PNG/HOMEPAGE/Icons/bot.png);
     background-size: cover; /* Ensure the background image covers the entire button */
     width: 45px;
     height: 45px; /* Set the initial height of the button */
+    margin-bottom: 40px;
+    margin-right: 5px;
     border: none; /* Remove border to make it look like an icon */
 }
 
  #pitchdeck {
     background: transparent;
-    background-image: url(assets/PNG/HOMEPAGE/Icons/whitepaper.png);
     background-size: cover; /* Ensure the background image covers the entire button */
     width: 53px; /* Set width to auto to maintain aspect ratio */
     height: 322px; /* Set the button's height to match the photo's height */
@@ -88,7 +92,6 @@
 
  #telegram {
     background: transparent;
-    background-image: url(assets/PNG/HOMEPAGE/Icons/telegram.png);
     background-size: cover; /* Ensure the background image covers the entire button */
     width: 53px;
     height: 53px; /* Set the initial height of the button */
@@ -97,7 +100,6 @@
 
  #coingecko {
     background: transparent;
-    background-image: url(assets/PNG/HOMEPAGE/Icons/coingecko.png);
     background-size: cover; /* Ensure the background image covers the entire button */
     width: 53px;
     height: 53px; /* Set the initial height of the button */
@@ -130,20 +132,200 @@
     background-image: url('assets/PNG/HOMEPAGE/Background/ABOUT.png');
     height: 1055px; /* Full viewport height */
     background-size: cover; /* Ensure the background image covers the entire area */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
+
+.about-me-section {
+   display: flex;
+}
+
+.about-me-left-column {
+   flex: 1 1 50%; /* Take up all available space */
+}
+
+.about-me-right-column {
+   flex: 1 1 50%; /* Take up all available space */
+   display: flex;
+   justify-content: flex-end; /* Align content to the right */
+   align-items: center; /* Center content vertically */
+   padding-left: -10%;
+}
+
+.about-me-right-column img{
+   margin-right: 10%
+}
+
+.about-me-items{
+   font-family: "Berkshire Swash", cursive;
+   font-size: 75px;
+   font-weight: 200;
+   font-style: normal;
+   letter-spacing: 2px;
+   margin: 10px 0; /* Adds some margin for spacing between items */
+   margin-bottom: -1%;
+   margin-top: -15%;
+}
+
+.about-me-desc{
+   margin-top: 5%;
+   margin-left:27.5%;
+   padding-right: 5%;
+   text-align: left;
+   font-family: 'Poppins', sans-serif; /* Poppins font */
+   font-size: 20px; 
+   font-weight: 300; 
+   color: #ffffff; /* Text color */
+   line-height: normal; /* Reset line height */
+}
+
+.about-me-right-column img {
+   max-width: 100%; /* Ensure photo doesn't exceed container width */
+   height: auto; /* Maintain aspect ratio */
+   max-height: 100%; /* Ensure photo doesn't exceed container height */
+}
+
 
  #section4 {
     background-image: url('assets/PNG/HOMEPAGE/Background/HOW IT WORKS.png');
     height: 951px; /* Full viewport height */
     padding: 20px;
     background-size: cover; /* Ensure the background image covers the entire area */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
- #section5 {
-    background-image: url('assets/PNG/HOMEPAGE/Background/FAQ.png');
-    height: 957px; /* Full viewport height */
-    background-size: cover; /* Ensure the background image covers the entire area */
+.how-works-container {
+   display: flex;
+   flex-direction: column; /* Stack title and row vertically */
+   width: 90%; /* Adjusted width */
 }
+
+.how-works-title {
+   display: flex;
+   flex-direction: column; /* Stack heading and image vertically */
+   align-items: center; /* Center heading and image horizontally */
+   margin: 0; /* Reset margin */
+   margin-bottom: 2.5%;
+   height: 150px;
+}
+
+.how-works-title h1 {
+   font-family: "Berkshire Swash", cursive;
+   font-size: 55px;
+   font-weight: 400;
+   font-style: normal;
+   letter-spacing: 2px;
+}
+
+.how-works-title img {
+   display: flex;
+   flex-direction: column; /* Stack heading and image vertically */
+   align-items: center; /* Center heading and image horizontally */
+   margin-top: -5px;
+   margin-bottom: 5%; /* Space between heading row and content row */
+}
+
+.how-works-row {
+   margin-top: -5%;
+   display: flex;
+   justify-content: center; /* Center the columns horizontally */
+   gap: 10px; /* Space between columns */
+}
+
+.how-works-c {
+   flex: 0 1 382px; /* Adjusted width */
+   height: 600px; /* Allow the height to adjust based on content */
+   text-align: center; /* Center text inside each column */
+   background-size: cover; /* Ensure background images fit within the container */
+   background-repeat: no-repeat; /* Prevent background image from repeating */
+   background-position: center; /* Center the background images */
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start; /* Align content at the top */
+   padding: 20px; /* Add padding for content inside columns */
+   margin: 30px; /* Add margin to ensure sides are visible */
+}
+
+.how-works-c h2 {
+   font-family: "Berkshire Swash", cursive;
+   font-size: 34px;
+   margin-top: 60%;
+   background: linear-gradient(130deg, #CCA757, #DABA5C, #CDAA56, #715225, #9D7A40, #CFAC5B, #B99850); /* Gradient background */
+   -webkit-background-clip: text; /* Apply the gradient to the text */
+   background-clip: text; /* Apply the gradient to the text */
+   color: transparent; /* Hide the original text */
+}
+
+.how-works-c p {
+   margin-top: 5%;
+   font-family: "Poppins", sans-serif;
+   font-size: 18px;
+   color: #fff;
+}
+
+/* Specific columns */
+#hiw-c1 {
+   margin-top: auto;
+   background-image: url(assets/PNG/HOMEPAGE/Images/bot\ integration.png);
+}
+
+#hiw-c2 {
+   background-image: url(assets/PNG/HOMEPAGE/Images/custom\ pvp.png);
+   margin-top: auto;
+}
+
+#hiw-c3 {
+   margin-top: auto;
+   background-image: url(assets/PNG/HOMEPAGE/Images/get\ rewarded.png);
+}
+
+#section5 {
+   background-image: url('assets/PNG/HOMEPAGE/Background/FAQ.png');
+   height: 957px; /* Full viewport height */
+   background-size: cover; /* Ensure the background image covers the entire area */
+   display: flex;
+   flex-direction: column; /* Stack items vertically */
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+#section5 h2 {
+   margin-bottom: 2rem;
+ }
+ 
+ .accordion-button {
+   color: black;
+   border: none;
+   border-radius: 0;
+ }
+ 
+ .accordion-button:not(.collapsed) {
+   background-color: linear-gradient(90deg, #B99850, #CFAC5B, #9D7A40, #715225, #CDAA56, #DABA5C, #CCA757);
+ }
+ 
+ .accordion-button:focus {
+   box-shadow: none;
+ }
+ 
+ .accordion-body {
+   margin-top: -5%;
+   background: linear-gradient(90deg, #B99850, #CFAC5B, #9D7A40, #715225, #CDAA56, #DABA5C, #CCA757);
+   color: white;
+   border: none;
+ }
+ 
+ .accordion-item {
+   border: none;
+   border-radius: 0;
+   margin-bottom: 1rem;
+ }
+ 
 
  #section6 {
     background-image: url('assets/PNG/HOMEPAGE/Background/TEAM.png');
@@ -155,4 +337,118 @@
     background-image: url('assets/PNG/HOMEPAGE/Background/BLOG.png');
     height: 868px; /* Full viewport height */
     background-size: cover; /* Ensure the background image covers the entire area */
+}
+
+#section7 {
+   background-color: #000;
+   color: #fff;
+   padding: 50px 0;
+   text-align: center;
+}
+
+#section7 .container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+#section7 h2 {
+   font-size: 2.5em;
+   margin-bottom: 10px;
+}
+
+#section7 p {
+   font-size: 1.2em;
+   margin-bottom: 40px;
+}
+
+.blog-title {
+   display: flex;
+   flex-direction: column; /* Stack heading and image vertically */
+   align-items: center; /* Center heading and image horizontally */
+   margin-bottom: 2.5%;
+}
+
+.blog-title h1 {
+   font-family: "Berkshire Swash", cursive;
+   font-size: 65px;
+   font-weight: 400;
+   font-style: normal;
+   letter-spacing: 2px;
+}
+
+.blog-title img {
+   margin-top: 15px; /* Space between heading row and content row */
+  
+}
+
+.blog-grid {
+   margin-top: -2.5%;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+   gap: 20px;
+}
+
+.blog-item {
+   font-family: 'Poppins', sans-serif;
+   background-color: #333;
+   border-radius: 0px;
+   overflow: hidden;
+   transition: transform 0.3s ease;
+}
+
+.blog-item:hover {
+   transform: scale(1.05);
+}
+
+.blog-item img {
+   width: 100%;
+   height: 200px;
+}
+
+.blog-content {
+   padding: 20px;
+}
+
+.blog-content h3 {
+   font-size: 1.5em;
+   margin-bottom: 10px;
+}
+
+.blog-content p {
+   font-weight: 200;
+   margin-bottom: 10px;
+   font-size: 1em;
+}
+
+.blog-content .date {
+   font-size: 0.9em;
+   color: #bbb;
+   margin-bottom: 20px;
+}
+
+.blog-content .read-more {
+   color: #fff;
+   text-decoration: none;
+   font-weight: bold;
+   display: inline-block;
+   margin-top: 10px;
+   transition: color 0.3s ease;
+}
+
+.blog-content .read-more:hover {
+   color: #ffd700;
+}
+
+.read-more-all {
+   display: inline-block;
+   margin-top: 40px;
+   color: #ffd700;
+   text-decoration: none;
+   font-size: 1.2em;
+   transition: color 0.3s ease;
+}
+
+.read-more-all:hover {
+   color: #fff;
 }
