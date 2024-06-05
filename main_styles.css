@@ -188,7 +188,7 @@ body {
 }
 #footer-newsletter-sect {
   font-family: "Poppins", sans-serif;
-  background-image: url("/assets/PNG/HOMEPAGE/Background/footer_news.png");
+  background: #1d160e;
   height: 450px;
   background-size: cover;
   background-position: center;
