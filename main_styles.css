@@ -1,307 +1,312 @@
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: auto;
-    background-color: #000000;
-    font-family: 'Poppins', sans-serif;
-    color: white;
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  background-color: #000000;
+  font-family: "Poppins", sans-serif;
+  color: white;
 }
 /* NAV BAR BACKGROUND AND TEXT */
 .custom-navbar {
-    position: fixed; /* Fix the navbar to the top */
-    top: 0; /* Position it at the top of the viewport */
-    left: 0; /* Position it at the left edge of the viewport */
-    width: 100%; /* Ensure the navbar spans the full width of the viewport */
-    z-index: 1000; /* Ensure it stays above other content */
-    background-image: url('assets/PNG/HOMEPAGE/Background/NAV BAR.png'); /* Replace with your image path */
-    background-size: cover; /* Ensure the image covers the entire navbar */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    height: 117px;
-    font-family: 'Poppins', sans-serif;
-    font-size: large;
-    padding: 0 25px; /* Adjust padding for some space on the sides */
+  position: fixed; /* Fix the navbar to the top */
+  top: 0; /* Position it at the top of the viewport */
+  left: 0; /* Position it at the left edge of the viewport */
+  width: 100%; /* Ensure the navbar spans the full width of the viewport */
+  z-index: 1000; /* Ensure it stays above other content */
+  background-image: url("assets/PNG/HOMEPAGE/Background/NAV BAR.png"); /* Replace with your image path */
+  background-size: cover; /* Ensure the image covers the entire navbar */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  height: 117px;
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+  padding: 0 25px; /* Adjust padding for some space on the sides */
 }
 
 /* Adjust the body or first section to account for the fixed navbar's height */
 body {
-    padding-top: 117px;
+  padding-top: 117px;
 }
 /* NAV BAR ALIGNMENT */
 .navbar-nav {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 /* NAVBAR LINKS POSITIONS */
-.custom-navbar .nav-link, .shape {
-    margin-right: 10px;
-    color: #ffffff;
+.custom-navbar .nav-link,
+.shape {
+  margin-right: 10px;
+  color: #ffffff;
 }
 /* NAVBAR BUTTON POSITIONS */
 .nav-item {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 /* NAVBAR IMAGE POSITION */
 .navbar-brand {
-    padding: 5%;
+  padding: 5%;
 }
 /* SQUARE SHAPE */
 .square {
-    width: 200px;
-    height: 60px;
-    background-color: transparent;
-    position: relative;
+  width: 200px;
+  height: 60px;
+  background-color: transparent;
+  position: relative;
 }
 /* NAV RECTANGLE BUTTON CONFIGS */
 .rect-button-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 .rect-button-image img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 .rect-button-text a {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    color: #ffffff;
-    text-align: center;
-    line-height: normal;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  line-height: normal;
 }
 /* NAV POLY BUTTON CONFIGS */
 .poly-button-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 98%;
-    height: 98%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 98%;
+  height: 98%;
 }
 .poly-button-image img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 .poly-button-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    color: #ffffff;
-    text-align: center;
-    line-height: normal;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  line-height: normal;
 }
 /* LINK UNDERLINE REMOVER */
 .link-button-text a {
-    color: #ffffff;
-    text-decoration: none;
-    color: inherit;
+  color: #ffffff;
+  text-decoration: none;
+  color: inherit;
 }
 /* FOOTER COMMUNITY SECTION */
 #footer-community-sect {
-    background-image: url('assets/PNG/HOMEPAGE/Background/JOIN.png');
-    font-family: 'Poppins', sans-serif;
-    height: 232px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0 10%;
+  background-image: url("assets/PNG/HOMEPAGE/Background/JOIN.png");
+  font-family: "Poppins", sans-serif;
+  height: 232px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0 10%;
 }
 .community-footers-col {
-    height: auto;
+  height: auto;
 }
 .community-col {
-    margin-right: -10%;
-    height: auto;
+  margin-right: -10%;
+  height: auto;
+
+  margin-top: 20px;
 }
 #community-subtitle {
-    font-size: 20px;
-    font-weight: 300;
-    font-family: 'Poppins', sans-serif;
-    margin-top: 25px;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
 }
 .common-col {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    padding: 20px 5%;
-    font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 20px 5%;
+  font-family: "Poppins", sans-serif;
 }
 /* FOOTER NEWSLETTER SECTION */
 #footer-newsletter-sect {
-    font-family: 'Poppins', sans-serif;
-    background-image: url('assets/PNG/HOMEPAGE/Background/footer_news.png');
-    height: 450px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0 10%;
+  font-family: "Poppins", sans-serif;
+  background-image: url("assets/PNG/HOMEPAGE/Background/footer_news.png");
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0 10%;
 }
 .col-6.common-col {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    padding: 20px 5%;
-    font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 20px 5%;
+  font-family: "Poppins", sans-serif;
 }
 #community-highlight {
-    height: 5px;
-    width: 220px;
-    transform: translateX(60px);
+  height: 5px;
+  width: 220px;
+  transform: translateX(60px);
 }
 #community-title {
-    font-family: 'Berkshire Swash', cursive;
-    font-size: 38px;
-    font-weight: 400;
-    letter-spacing: 2px;
+  font-family: "Berkshire Swash", cursive;
+  font-size: 38px;
+  font-weight: 400;
+  letter-spacing: 2px;
 }
 #news-title {
-    font-size: 28px;
-    font-weight: bold;
+  font-size: 28px;
+  font-weight: bold;
 }
 .footer-icons-col {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    transform: translateX(25px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transform: translateX(25px);
 }
 .footer-icons-col img {
-    width: 78px;
-    height: 78px;
+  width: 78px;
+  height: 78px;
 }
 #footer-newsletter-sect {
-    font-family: 'Poppins', sans-serif;
-    background-image: url('/assets/PNG/HOMEPAGE/Background/footer_news.png');
-    height: 450px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0 10%;
+  font-family: "Poppins", sans-serif;
+  background-image: url("/assets/PNG/HOMEPAGE/Background/footer_news.png");
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0 10%;
 }
 .newsletter-col {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    padding: 20px 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 20px 5%;
 }
 .newsletter-input-group {
-    background-color: #fff;
-    border-radius: 50px;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 700px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: #fff;
+  border-radius: 50px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .input-group-text {
-    background-color: transparent;
-    border: none;
+  background-color: transparent;
+  border: none;
 }
 input:focus,
 textarea:focus,
 select:focus {
-    outline: none;
-    box-shadow: none;
+  outline: none;
+  box-shadow: none;
 }
 #news-title {
-    font-size: 40px;
-    font-weight: 400;
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 5%;
-    margin-top: -5%;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 5%;
+  margin-top: -5%;
 }
 #news-subtitle {
-    font-size: 22px;
-    font-weight: 200;
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 25px;
+  font-size: 22px;
+  font-weight: 200;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 25px;
 }
 #email-icon {
-    transform: translateX(5px);
+  transform: translateX(5px);
 }
 .input-group-text img {
-    height: 24px;
-    width: auto;
+  height: 24px;
+  width: auto;
 }
 .form-control {
-    border: none;
-    box-shadow: none;
-    flex: 1;
-    height: 60px;
-    padding: 0 15px;
-    margin-left: -10px;
+  border: none;
+  box-shadow: none;
+  flex: 1;
+  height: 60px;
+  padding: 0 15px;
+  margin-left: -10px;
 }
 .btn-gold {
-    height: 50px;
-    width: 150px;
-    background: linear-gradient(to right, #b89453, #f2c94c);
-    border: 3px solid linear-gradient(to left, #FFFFFF, #7E5E2C, #E8BC4D);
-    color: white;
-    padding: 0 30px;
-    border-radius: 50px;
-    font-weight: 200;
-    margin-left: 5px;
-    margin-right: 5px;
-    box-sizing: border-box;
+  height: 50px;
+  width: 150px;
+  background: linear-gradient(to right, #b89453, #f2c94c);
+  border: 3px solid linear-gradient(to left, #ffffff, #7e5e2c, #e8bc4d);
+  color: white;
+  padding: 0 30px;
+  border-radius: 50px;
+  font-weight: 200;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-sizing: border-box;
 }
 .fill-col {
-    height: 100%;
+  height: 100%;
 }
 .joinus-footers-col {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    font-size: 20px;
-    font-weight: 400;
-    margin-top: -5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: -5%;
 }
 .joinus-footers-col p {
-    margin-top: 5%;
-    margin-bottom: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 .footer-heading-col {
-    font-size: 22px;
-    margin-bottom: 40%;
+  font-size: 22px;
+  margin-bottom: 40%;
 }
 .footer-elements-col {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-weight: 200;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: 200;
 }
 .joinus-col {
-    transform: translateX(25px);
+  transform: translateX(25px);
 }
-.joinus-col, .chart-col {
-    background-color: transparent;
-    height: auto;
-    transform: translateY(25px);
+.joinus-col,
+.chart-col {
+  background-color: transparent;
+  height: auto;
+  transform: translateY(25px);
 }
 #rights-sect {
-    background-image: url('/assets/PNG/HOMEPAGE/Background/rights.png');
-    height: 49px;
-    background-size: cover;
+  background-image: url("/assets/PNG/HOMEPAGE/Background/rights.png");
+  height: 49px;
+  background-size: cover;
 }
 .rights-text {
-    text-align: center;
-    justify-content: center;
-    margin-top: 25px;
-    font-family: 'Poppins', sans-serif;
+  text-align: center;
+  justify-content: center;
+  margin-top: 25px;
+  font-family: "Poppins", sans-serif;
 }
