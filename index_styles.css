@@ -1,6 +1,6 @@
 
  #intro {
-    background-image: url('assets/PNG/HOMEPAGE/Background/HOME.png');
+    background-image: url('assets/SVG/HOMEPAGE/Background/HOME.svg');
     height: 993px; /* Full viewport height */
     width: 100%;
     background-size: cover; /* Ensure the background image covers the entire area */
@@ -129,7 +129,7 @@
 }
 
  #section3 {
-    background-image: url('assets/PNG/HOMEPAGE/Background/ABOUT.png');
+    background-image: url('assets/SVG/HOMEPAGE/Background/ABOUT.svg');
     height: 1055px; /* Full viewport height */
     background-size: cover; /* Ensure the background image covers the entire area */
     display: flex;
