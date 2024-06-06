@@ -422,6 +422,7 @@ h1 {
 }
 
 .contacts-cards {
+  gap: 50px;
   position: relative;
   justify-content: center;
   align-items: center; /* Align items to the top */
