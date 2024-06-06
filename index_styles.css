@@ -44,17 +44,19 @@ h1 {
 }
 
 #gif-col {
+  padding-right: 30px;
   position: relative;
-  width: 50%;
+  width: 90%;
   height: 100vh; /* Full viewport height */
   overflow: hidden; /* Hide overflow */
+  transform: translate(-30px, 89px);
 }
 
 /* Image or GIF styling */
 .background-image {
   position: absolute;
-  width: 835.39px;
-  height: 835.39px;
+  width: 690.39px;
+  height: 690.39px;
   object-fit: cover; /* Cover the entire container */
   z-index: 1; /* Lower z-index to place it behind other elements */
   transform: rotate(13deg); /* Rotate the background image */
@@ -63,8 +65,8 @@ h1 {
 /* Button container styling */
 .button-container {
   position: absolute;
-  top: 100;
-  left: 768;
+  top: 15;
+  left: 615;
   z-index: 2; /* Higher z-index to place it above the image */
   display: flex;
   flex-direction: column;
