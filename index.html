@@ -433,13 +433,11 @@
             <div class="container-fluid h-100">
                 <div class="row h-100 w-100">
                     <div class="col-6 newsletter-col common-col">
-                        <h1 id="news-title">
-                            Join Our Newsletter! 👋
-                        </h1>
+                        <h1 id="news-title">Join Our Newsletter! 👋</h1>
                         <p id="news-subtitle">
                             Enjoying the bot? Stay updated with the latest news and updates for Bet Lounge.
                         </p>
-                        <form action="connect.php" method="POST" class="newsletter-input-group">
+                        <form id="newsletter-form" action="connect.php" method="POST" class="newsletter-input-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text" id="email-icon">
                                     <img src="assets/PNG/HOMEPAGE/Icons/footer_email.png" alt="Email Icon">
@@ -450,7 +448,9 @@
                                 <button class="btn btn-gold" type="submit">Subscribe</button>
                             </div>
                         </form>
-                    </div>                    
+                        <div id="notification" style="display: none;"></div>
+                    </div>
+                                     
                     <div class="col-2 fill-col">
                         <!-- Content here -->
                     </div>
