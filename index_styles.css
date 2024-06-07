@@ -44,12 +44,10 @@ h1 {
 }
 
 #gif-col {
-  padding-right: 30px;
   position: relative;
   width: 90%;
   height: 100vh; /* Full viewport height */
   overflow: hidden; /* Hide overflow */
-  transform: translate(-30px, 89px);
 }
 
 /* Image or GIF styling */
@@ -59,7 +57,7 @@ h1 {
   height: 690.39px;
   object-fit: cover; /* Cover the entire container */
   z-index: 1; /* Lower z-index to place it behind other elements */
-  transform: rotate(13deg); /* Rotate the background image */
+  transform: rotate(13deg) translateX(-47px) translateY(10px); /* Rotate the background image */
 }
 
 /* Button container styling */
@@ -119,6 +117,12 @@ h1 {
   text-align: center;
   height: 224px; /* Full viewport height */
   background-size: cover; /* Ensure the background image covers the entire area */
+}
+
+.partners a {
+  position: relative;
+  z-index: 10;
+  pointer-events: auto;
 }
 
 .partners-container {
